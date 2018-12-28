@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ICSharpCode.SharpDevelop.Dom.Tests.ClassInheritanceTreeTests" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAEQAJAQABAAAAgAAAAAQAICAAAAAAIQCQAAAA=</HashCode>
+      <FileName>ClassInheritanceTreeTests.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ICSharpCode.SharpDevelop.Dom.Tests.SharedProjectContentRegistryForTests" Collapsed="true">
+    <Position X="10.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>CodeSnippetConverterTests.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ICSharpCode.SharpDevelop.Dom.Tests.CodeSnippetConverterTests" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAiAAAgAAAAgAcAUAAiAAAAwABAAAAAAFAAAAACE=</HashCode>
+      <FileName>CodeSnippetConverterTests.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ICSharpCode.SharpDevelop.Dom.Tests.CSharpAmbienceTests" Collapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAIAAQAAAAAAAAAAAABBAAAAAAAAIA=</HashCode>
+      <FileName>CSharpAmbienceTests.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ICSharpCode.SharpDevelop.Dom.Tests.ImplementInterfaceTests" Collapsed="true">
+    <Position X="5.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ImplementInterfaceTests.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ICSharpCode.SharpDevelop.Dom.Tests.IndexBeforeTextFinderTests" Collapsed="true">
+    <Position X="8.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAEABAQAgIABAAAAAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>IndexBeforeTextFinderTests.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ICSharpCode.SharpDevelop.Dom.Tests.NRefactoryAstConverterTests" Collapsed="true">
+    <Position X="5.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQYkAAAAAkAAEAAgIAgAAAAAAAIQAAAAAAAAAAQQAgA=</HashCode>
+      <FileName>NRefactoryAstConverterTests.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ICSharpCode.SharpDevelop.Dom.Tests.NRefactoryRefactoringProviderTests" Collapsed="true">
+    <Position X="7" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAACAAEQCAACAAACAwAAEABAAAAAAAAABACAKAAAAA=</HashCode>
+      <FileName>NRefactoryRefactoringProviderTests.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ICSharpCode.SharpDevelop.Dom.Tests.ProjectContentClassManagementTest" Collapsed="true">
+    <Position X="8.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACIAAAAAEAAAAAgAAAAAAAAAABAAAAAABAAQAAAAAIA=</HashCode>
+      <FileName>ProjectContentClassManagementTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ICSharpCode.SharpDevelop.Dom.Tests.VBNetAmbienceTests" Collapsed="true">
+    <Position X="5.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAIAAQAAAAAAAAAAAABBAAAAAAAAIA=</HashCode>
+      <FileName>VBNetAmbienceTests.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NUnit.Framework.Constraints.PropertyAccessorIsEmptyConstraint" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CFAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAEAQAEAAAAA=</HashCode>
+      <FileName>NUnitHelpers\Constraints.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NUnit.Framework.Constraints.PropertyGetIsEmptyConstraint" Collapsed="true">
+    <Position X="2.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>NUnitHelpers\Constraints.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NUnit.Framework.Constraints.PropertySetIsEmptyConstraint" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>NUnitHelpers\Constraints.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NUnit.Framework.Constraints.MethodBodyIsEmptyConstraint" Collapsed="true">
+    <Position X="10.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAQAAAAAAA=</HashCode>
+      <FileName>NUnitHelpers\Constraints.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ICSharpCode.SharpDevelop.Dom.Tests.NUnitHelpers.IndexBeforeTextFinderHelper" Collapsed="true">
+    <Position X="7" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NUnitHelpers\IndexBeforeTextFinderHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NUnit.Framework.SyntaxHelpers.HasEmpty" Collapsed="true">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAgAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>NUnitHelpers\SyntaxHelpers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

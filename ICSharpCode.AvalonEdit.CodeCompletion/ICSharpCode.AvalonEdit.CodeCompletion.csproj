@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{71A52A6F-3F67-4B3D-A373-B73CDCA6BCE7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ICSharpCode.AvalonEdit.CodeCompletion</RootNamespace>
+    <AssemblyName>ICSharpCode.AvalonEdit.CodeCompletion</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ICSharpCode.AvalonEdit, Version=4.2.0.8783, Culture=neutral, PublicKeyToken=9cc39be672370310, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\AvalonEdit.4.2.0.8783\lib\Net40\ICSharpCode.AvalonEdit.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Interactivity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CompletionItemProviderFactory.cs" />
+    <Compile Include="ICompletionItemProviderFactory.cs" />
+    <Compile Include="Indexers\ClassComparer.cs" />
+    <Compile Include="Indexers\IndexerInsightProvider.cs" />
+    <Compile Include="Indexers\ParametersExtencions.cs" />
+    <Compile Include="Indexers\ParametersKey.cs" />
+    <Compile Include="Interface\Description\ClassNameFormater.cs" />
+    <Compile Include="Interface\Description\Description.cs" />
+    <Compile Include="Interface\Description\FieldHeader.cs" />
+    <Compile Include="Interface\Description\GenericParameter.cs" />
+    <Compile Include="Interface\Description\IHeader.cs" />
+    <Compile Include="Interface\Description\MethodHeader.cs" />
+    <Compile Include="Interface\Description\Parameter.cs" />
+    <Compile Include="Interface\Description\PropertyHeader.cs" />
+    <Compile Include="Interface\Description\SimpleDescription.cs" />
+    <Compile Include="Interface\Description\SimpleHeader.cs" />
+    <Compile Include="Interface\ICompletionItemProvider.cs" />
+    <Compile Include="AggregatedLanguageBinding.cs" />
+    <Compile Include="AmbienceService.cs" />
+    <Compile Include="AnchorMovementType.cs" />
+    <Compile Include="AvalonEditDocumentAdapter.cs" />
+    <Compile Include="AvalonEditTextEditorAdapter.cs" />
+    <Compile Include="AvalonEditTextSourceAdapter.cs" />
+    <Compile Include="BlockCommentRegion.cs" />
+    <Compile Include="BracketSearchResult.cs" />
+    <Compile Include="CallbackOnDispose.cs" />
+    <Compile Include="CodeCompletionDataAdapter.cs" />
+    <Compile Include="CodeCompletionDataUsageCache.cs" />
+    <Compile Include="CodeCompletionEditorAdapter.cs" />
+    <Compile Include="CompetionItems\CodeCompletionItem.cs" />
+    <Compile Include="CompetionItems\Providers\CodeCompletionItemProvider.cs" />
+    <Compile Include="CodeCompletionBeahvior.cs" />
+    <Compile Include="CodeCompletionKeyPressResult.cs" />
+    <Compile Include="CodeDOMGeneratorUtility.cs" />
+    <Compile Include="CompetionItems\Providers\CommentCompletionItemProvider.cs" />
+    <Compile Include="CompletionContext.cs" />
+    <Compile Include="CompletionData.cs" />
+    <Compile Include="CompletionItemListKeyResult.cs" />
+    <Compile Include="CSharpCompletionBinding.cs" />
+    <Compile Include="CtrlSpaceCompletionItemProvider.cs" />
+    <Compile Include="DefaultBracketSearcher.cs" />
+    <Compile Include="DefaultCodeCompletionBinding.cs" />
+    <Compile Include="CompetionItems\DefaultCompletionItem.cs" />
+    <Compile Include="DefaultCompletionItemList.cs" />
+    <Compile Include="DefaultFormattingStrategy.cs" />
+    <Compile Include="DocumentUtilitites.cs" />
+    <Compile Include="CompetionItems\Providers\DotCodeCompletionItemProvider.cs" />
+    <Compile Include="CompetionItems\Providers\EventHandlerCompletionItemProvider.cs" />
+    <Compile Include="Ext.cs" />
+    <Compile Include="FileName.cs" />
+    <Compile Include="FileUtility.cs" />
+    <Compile Include="FilterStrategies\WhiteListFilterStrategy.cs" />
+    <Compile Include="Interface\ICodeCompletionBinding.cs" />
+    <Compile Include="IInsightWindowHandler.cs" />
+    <Compile Include="Interface\IBracketSearcher.cs" />
+    <Compile Include="Interface\ICompletionItem.cs" />
+    <Compile Include="Interface\ICompletionItemList.cs" />
+    <Compile Include="Interface\ICompletionListWindow.cs" />
+    <Compile Include="Interface\ICompletionWindow.cs" />
+    <Compile Include="Interface\IDocument.cs" />
+    <Compile Include="Interface\IDocumentLine.cs" />
+    <Compile Include="Interface\IFancyCompletionItem.cs" />
+    <Compile Include="Interface\IFormattingStrategy.cs" />
+    <Compile Include="Interface\IImage.cs" />
+    <Compile Include="Interface\IInsightItem.cs" />
+    <Compile Include="Interface\IInsightWindow.cs" />
+    <Compile Include="Interface\ILanguageBinding.cs" />
+    <Compile Include="Interface\IMementoCapable.cs" />
+    <Compile Include="Interface\ISnippetCompletionItem.cs" />
+    <Compile Include="Interface\ITextAnchor.cs" />
+    <Compile Include="Interface\ITextBuffer.cs" />
+    <Compile Include="Interface\ITextBufferVersion.cs" />
+    <Compile Include="Interface\ITextEditor.cs" />
+    <Compile Include="Interface\ITextEditorCaret.cs" />
+    <Compile Include="Interface\ITextEditorOptions.cs" />
+    <Compile Include="CompetionItems\KeywordCompletionItem.cs" />
+    <Compile Include="MethodInsightItem.cs" />
+    <Compile Include="MethodInsightProvider.cs" />
+    <Compile Include="CompetionItems\NamespaceCompletionItem.cs" />
+    <Compile Include="NetAmbience.cs" />
+    <Compile Include="NRefactoryCodeCompletionBinding.cs" />
+    <Compile Include="NRefactoryCompletionItemList.cs" />
+    <Compile Include="CompetionItems\Providers\NRefactoryCtrlSpaceCompletionItemProvider.cs" />
+    <Compile Include="NRefactoryInsightWindowHandler.cs" />
+    <Compile Include="CompetionItems\OverrideCompletionItem.cs" />
+    <Compile Include="CompetionItems\Providers\OverrideCompletionItemProvider.cs" />
+    <Compile Include="ParserService.cs" />
+    <Compile Include="Properties.cs" />
+    <Compile Include="PropertyChangedEventArgs.cs" />
+    <Compile Include="PropertyChangedEventHandler.cs" />
+    <Compile Include="PropertyService.cs" />
+    <Compile Include="SharpDevelopCompletionWindow.cs" />
+    <Compile Include="SharpDevelopInsightWindow.cs" />
+    <Compile Include="CompetionItems\SuggestedCodeCompletionItem.cs" />
+    <Compile Include="TextChangeEventArgs.cs" />
+    <Compile Include="TParser.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ICSharpCode.SharpDevelop.Dom\ICSharpCode.SharpDevelop.Dom.csproj">
+      <Project>{924EE450-603D-49C1-A8E5-4AFAA31CE6F3}</Project>
+      <Name>ICSharpCode.SharpDevelop.Dom</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NRefactory\NRefactory.csproj">
+      <Project>{3A9AE6AA-BC07-4A2F-972C-581E3AE2F195}</Project>
+      <Name>NRefactory</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(SolutionDir)\.nuget\nuget.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
