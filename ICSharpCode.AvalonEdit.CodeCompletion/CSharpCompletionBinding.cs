@@ -305,7 +305,8 @@ namespace ICSharpCode.AvalonEdit.CodeCompletion
         {
             if (FilterStrategy == null)
                 return itemList;
-            var defaultCompletionItemList = new DefaultCompletionItemList {SuggestedItem = itemList.SuggestedItem};
+            var defaultCompletionItemList = new DefaultCompletionItemList
+                {SuggestedItem = itemList.SuggestedItem, PreselectionLength = itemList.PreselectionLength};
             defaultCompletionItemList.Items.AddRange(FilterStrategy.Filter(itemList.Items));
             return defaultCompletionItemList;
         }
